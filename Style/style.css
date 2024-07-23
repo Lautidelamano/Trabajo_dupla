@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+.link_menu{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #48484f;
+    cursor: pointer;
+  }
+.tit2{
+    color: #ff9f39;
+}
+.carrusel{
+    padding: 1em;
+    justify-content: center;
+    height: 40em;
+}
+img{
+    height: 600px;
+    margin: 0em;
+}
+.titulo{
+    color: white;
+    padding: 1em;
+    margin-left: 4em;
+}
