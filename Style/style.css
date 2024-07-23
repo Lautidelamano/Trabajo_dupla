@@ -28,3 +28,37 @@ img{
     padding: 1em;
     margin-left: 4em;
 }
+.imgPerfil{
+    width: 200px;
+    height: 200px;
+}
+.contenedorPerfil{
+    height: 600px;
+    text-align: center;
+}
+.tituloPerfil{
+    justify-content: center;
+}
+.parrafoPerfil{
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+.listaContacto{
+    margin-right: 50px;
+}
+.lista{
+    margin: 10px;
+}
+.contacto{
+    justify-content:center;
+    background-color: #ff9f39;
+    color: white;
+    height: 220px;
+}
+
+.contenedorContacto{
+    color: white;
+}
