@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Zona viajes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="../Style/style.css">
@@ -25,50 +25,58 @@
         </div>
     </div>
 
-    <div class="d-flex">
-
-        <div class="container p-2 m-2 bg-secondary contenedorContacto">
-            <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Nombre completo:</label>
-                <input type="text" class="form-control" id="uname" placeholder="Introduce nombre completo" name="uname" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
+    <div class="d-flex bg-secondary contenedorContacto m-2">
+        <form id="consultaForm">
+            <div class="container p-2 m-2">
+                <h3 style="text-align: center;">Dejenos su consulta</h3>
+                <div class="mb-3 mt-3">
+                    <label for="nombre" class="form-label">Nombre completo:</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Introduce nombre completo" name="nombre" required>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Contenido invalido.</div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="text" class="form-control" id="email" placeholder="Introduce email" name="email" required>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Contenido invalido.</div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="telefono" class="form-label">Telefono:</label>
+                    <input type="number" class="form-control" id="telefono" placeholder="Introduce teléfono" name="telefono" required>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Contenido invalido.</div>
+                </div>
+                <div class="mb-2">
+                    <label for="consulta" class="form-label">Consulta:</label>
+                    <textarea class="form-control" id="consulta" rows="6" required></textarea>
+                    <div class="valid-feedback">Valido.</div>
+                    <div class="invalid-feedback">Contenido invalido.</div>
+                </div>
+                <div style="text-align: center;">
+                    <button type="submit" class="btn botonConsulta">Enviar</button>
+                </div>
             </div>
-            <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Email:</label>
-                <input type="text" class="form-control" id="uname" placeholder="Introduce email" name="uname" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
-            </div>
-            <div class="mb-3 mt-3">
-                <label for="uname" class="form-label">Telefono:</label>
-                <input type="number" class="form-control" id="uname" placeholder="Introduce teléfono" name="uname" required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
-            </div>
-            <div class="mb-2">
-              <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-        </div>
-
+        </form>
     </div>
 
 
 
-
-    <div class="d-flex contacto m-2">
-        <ul class="listaContacto">
-            <h4>Contacto</h4>
-            <li class="lista">• Teléfono: +123 456 7890</li>
-            <li class="lista">
-                •Correo Electrónico: 
-                <a href="mailto:info@ZonaViajes.com">info@ZonaViajes.com</a>
-              </li>
-            <li class="lista">• Avenida de los Viajeros 123, Ciudad de las Aventuras, País</li>
-        </ul>
-       
-
-     </div>
+    <footer>
+        <div class="d-flex contacto m-2">
+            <ul class="listaContacto">
+                <h4>Contacto</h4>
+                <li class="lista">• Teléfono: +123 456 7890</li>
+                <li class="lista">
+                    •Correo Electrónico: 
+                    <a class="linkMail" href="mailto:info@ZonaViajes.com">info@ZonaViajes.com</a>
+                  </li>
+                <li class="lista">• Avenida de los Viajeros 123, Ciudad de las Aventuras, País</li>
+            </ul>
+        </div>
+    </footer>
 </body>
+
+<script src="../Js/index.js"></script>
+
 </html>

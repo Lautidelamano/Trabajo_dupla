@@ -2,7 +2,9 @@
   padding: 0;
   margin: 0;  
 }
-
+body{
+    height: 100%;
+}
 .link_menu{
     text-decoration: none;
     color: white;
@@ -56,9 +58,28 @@ ul{
     justify-content:center;
     background-color: #ff9f39;
     color: white;
-    height: 220px;
+    height: 130px;
 }
-
-.contenedorContacto{
+.linkMail{
+    text-decoration: none;
     color: white;
 }
+.contenedorContacto{
+    color: white;
+    justify-content: center;
+}
+.botonConsulta{
+    background-color: #ff9f39;
+    color: white;
+
+}
+.botonConsulta:hover{
+    border: 2px solid #ff9f39 ;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
